@@ -1,0 +1,31 @@
+name: coast_corr
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - earthengine-api
+  - google-api-python-client
+  - gdal
+  - pandas
+  - geopandas
+  - numpy
+  - scikit-image
+  - scikit-learn
+  - astropy
+  - spyder
+  - notebook
+  - pyshp
+  - ipywidgets
+  - geocube
+  - rioxarray
+  - tqdm
+  - folium
+  - osmnx
+  - glob2
+  - pip
+  - pip:
+     - dataretrieval
+     - requests
+     - ipyleaflet
+  
