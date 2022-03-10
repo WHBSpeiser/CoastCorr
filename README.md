@@ -2,12 +2,20 @@
 
 ### Create Environment
 
+```bash
 conda env create --file env/requirements.yml
-conda activate coast_corr
+
+conda activate coast_corr 
+```
 
 ### Authenticate Earth Engine/Drive
 
-earthengine authenticate
+```bash
+earthengine authenticate 
+```
 
 ### Run Jupyter
-jupyter notebook
+
+```bash
+jupyter notebook 
+```
